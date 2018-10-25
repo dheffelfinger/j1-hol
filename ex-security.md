@@ -38,7 +38,7 @@ In the project, locate the WEB-INF directory under "Web Pages" and right click t
 
 Navigate to the servlet source that has just been created and locate the *processRequest* method.
 
-Update it as follow
+Update it as follows
 
 ```java
  protected void processRequest(HttpServletRequest request, HttpServletResponse response)
@@ -80,7 +80,7 @@ You can now add the following annotations:
 ```java
  @DeclareRoles({"foo", "bar"})
 ```
-:arrow_right: This annotation specific that our application will work with 2 types of user roles: foo & bar.
+:arrow_right: This annotation specifies that our application will work with 2 types of user roles: foo & bar.
 
 ```java
  @ServletSecurity(@HttpConstraint(rolesAllowed = "foo"))
