@@ -85,7 +85,7 @@ You can now add the following annotations:
 ```java
  @ServletSecurity(@HttpConstraint(rolesAllowed = "foo"))
 ```
-:arrow_right: This annotation specify security constraints to be enforced by the Servlet container on HTTP protocol messages, i.e. only user of role *"foo"* will be allowed.
+:arrow_right: This annotation specifies security constraints to be enforced by the Servlet container on HTTP protocol messages, i.e. only user of role *"foo"* will be allowed.
 
 ```java
  @BasicAuthenticationMechanismDefinition(realmName="HOL-basic" )
